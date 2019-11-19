@@ -9,3 +9,5 @@ ADD ./target/info-1.0-SNAPSHOT.jar /app
 EXPOSE 8080
 
 CMD ["java", "-jar", "info-1.0-SNAPSHOT.jar"]
+
+# test travis
