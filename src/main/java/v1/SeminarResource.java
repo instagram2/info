@@ -13,7 +13,7 @@ public class SeminarResource {
     @GET
     public Seminar getInfo() {
         Seminar s = new Seminar();
-        s.setClani("mm3600, jmXXXX");
+        s.setClani("mm3600, jm6531");
         s.setOpis_projekta("Instagram2 je aplikacije za delejene slik.");
         s.setMikrostoritve("");
         s.setGithub("");
