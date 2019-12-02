@@ -37,7 +37,7 @@ public class Seminar {
         this.travis = travis;
     }
 
-    public String getTravis() {
+    public String[] getTravis() {
         return travis;
     }
 
@@ -45,7 +45,7 @@ public class Seminar {
         this.clani = clani;
     }
 
-    public String getClani() {
+    public String[] getClani() {
         return clani;
     }
 
@@ -53,7 +53,7 @@ public class Seminar {
         this.dockerhub = dockerhub;
     }
 
-    public String getDockerhub() {
+    public String[] getDockerhub() {
         return dockerhub;
     }
 
@@ -61,7 +61,7 @@ public class Seminar {
         this.github = github;
     }
 
-    public String getGithub() {
+    public String[] getGithub() {
         return github;
     }
 
@@ -69,7 +69,7 @@ public class Seminar {
         this.mikrostoritve = mikrostoritve;
     }
 
-    public String getMikrostoritve() {
+    public String[] getMikrostoritve() {
         return mikrostoritve;
     }
 
