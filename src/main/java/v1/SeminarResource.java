@@ -13,12 +13,12 @@ public class SeminarResource {
     @GET
     public Seminar getInfo() {
         Seminar s = new Seminar();
-        s.setClani("mm3600, jm6531");
+        s.setClani(["mm3600, jm6531"]);
         s.setOpis_projekta("Instagram2 je aplikacije za delejene slik.");
-        s.setMikrostoritve("");
-        s.setGithub("");
-        s.setDockerhub("");
-        s.setTravis("");
+        s.setMikrostoritve(["http://35.227.141.201/v1/images", "http://35.203.185.148/v1/comments"]);
+        s.setGithub(["https://github.com/instagram2/image-catalog", "https://github.com/instagram2/comments"]);
+        s.setDockerhub(["https://hub.docker.com/r/instagram2/image-catalog", "https://hub.docker.com/r/instagram2/comments"]);
+        s.setTravis(["https://travis-ci.org/instagram2/image-catalog", "https://travis-ci.org/instagram2/comments"]);
         return s;
     }
 

@@ -26,14 +26,14 @@ package v1;
  */
 public class Seminar {
 
-    private String clani;
+    private String[] clani;
     private String opis_projekta;
-    private String mikrostoritve;
-    private String github;
-    private String travis;
-    private String dockerhub;
+    private String[] mikrostoritve;
+    private String[] github;
+    private String[] travis;
+    private String[] dockerhub;
 
-    public void setTravis(String travis) {
+    public void setTravis(String[] travis) {
         this.travis = travis;
     }
 
@@ -41,7 +41,7 @@ public class Seminar {
         return travis;
     }
 
-    public void setClani(String clani) {
+    public void setClani(String[] clani) {
         this.clani = clani;
     }
 
@@ -49,7 +49,7 @@ public class Seminar {
         return clani;
     }
 
-    public void setDockerhub(String dockerhub) {
+    public void setDockerhub(String[] dockerhub) {
         this.dockerhub = dockerhub;
     }
 
@@ -57,7 +57,7 @@ public class Seminar {
         return dockerhub;
     }
 
-    public void setGithub(String github) {
+    public void setGithub(String[] github) {
         this.github = github;
     }
 
@@ -65,7 +65,7 @@ public class Seminar {
         return github;
     }
 
-    public void setMikrostoritve(String mikrostoritve) {
+    public void setMikrostoritve(String[] mikrostoritve) {
         this.mikrostoritve = mikrostoritve;
     }
 
