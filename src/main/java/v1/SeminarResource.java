@@ -6,9 +6,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+@ApplicationScoped
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-@Path("demo/info")
+@Path("info")
 public class SeminarResource {
     @GET
     public Seminar getInfo() {
